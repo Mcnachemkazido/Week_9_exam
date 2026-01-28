@@ -9,34 +9,34 @@ init_database()
 def health_check():
     return {"status": "ok"}
 
-@app.get("/customers/by-country/{country}")
-def customers_by_country(country: str):
+@app.get("/q1/customers-credit-limit-outliers")
+def customers_credit_limit_outliers():
     pass
 
-@app.get("/orders/by-customer/{customer_number}")
-def orders_by_customer(customer_number: int):
+@app.get("/q2/orders-null-comments")
+def orders_null_comments():
     pass
 
-@app.get("/products/{product_code}")
-def product_details(product_code: str):
+@app.get("/q3/customers-first-5")
+def customers_first_5():
     pass
 
-@app.get("/employees/by-office/{office_code}")
-def employees_by_office(office_code: str):
+@app.get("/q4/payments-total-average")
+def payments_total_average():
     pass
 
-@app.get("/payments/by-customer/{customer_number}")
-def payments_by_customer(customer_number: int):
+@app.get("/q5/employees-office-phone")
+def employees_office_phone():
     pass
 
-@app.get("/orders/{order_number}/details")
-def order_details(order_number: int):
+@app.get("/q6/customers-shipping-dates")
+def customers_shipping_dates():
     pass
 
-@app.get("/customers/top/{limit}")
-def top_customers(limit: int):
+@app.get("/q7/customer-quantity-per-order")
+def customer_quantity_per_order():
     pass
 
-@app.get("/products/in-stock")
-def products_in_stock():
+@app.get("/q8/customers-payments-by-lastname-pattern")
+def customers_payments_by_lastname_pattern(pattern: str = "son"):
     pass

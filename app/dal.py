@@ -1,33 +1,33 @@
 from typing import List, Dict, Any
 
-def get_customers_by_country(country: str):
-    """Return customers from a specific country."""
+def get_customers_by_credit_limit_range():
+    """Return customers with credit limits outside the normal range."""
     pass
 
-def get_orders_by_customer(customer_number: int):
-    """Return all orders for a specific customer."""
+def get_orders_with_null_comments():
+    """Return orders that have null comments."""
     pass
 
-def get_product_details(product_code: str):
-    """Return details of a specific product."""
+def get_first_5_customers():
+    """Return the first 5 customers."""
     pass
 
-def get_employees_by_office(office_code: str):
-    """Return all employees in a specific office."""
+def get_payments_total_and_average():
+    """Return total and average payment amounts."""
     pass
 
-def get_payments_by_customer(customer_number: int):
-    """Return all payments made by a specific customer."""
+def get_employees_with_office_phone():
+    """Return employees with their office phone numbers."""
     pass
 
-def get_order_details(order_number: int):
-    """Return detailed line items for a specific order."""
+def get_customers_with_shipping_dates():
+    """Return customers with their order shipping dates."""
     pass
 
-def get_top_customers_by_sales(limit: int):
-    """Return top customers by total payment amount."""
+def get_customer_quantity_per_order():
+    """Return customer name and quantity for each order."""
     pass
 
-def get_products_in_stock():
-    """Return all products that are currently in stock."""
+def get_customers_payments_by_lastname_pattern(pattern: str = "son"):
+    """Return customers and payments for last names matching pattern."""
     pass
